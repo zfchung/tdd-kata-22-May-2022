@@ -7,6 +7,9 @@
     "start": "node src",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "jest": {
+    "testEnvironment": "node"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/zfchung/tdd-kata-22-May-2022.git"
@@ -17,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/zfchung/tdd-kata-22-May-2022/issues"
   },
-  "homepage": "https://github.com/zfchung/tdd-kata-22-May-2022#readme"
+  "homepage": "https://github.com/zfchung/tdd-kata-22-May-2022#readme",
+  "devDependencies": {
+    "jest": "^28.1.0"
+  }
 }
